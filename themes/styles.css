@@ -5,17 +5,183 @@ h1.headerTitleFont{
 	text-align:center;
 	font-family: 'Georgia, serif', cursive;
 }
+
+.parkingMainNavigation {
+	margin-top: -10px;
+	text-align: center;
+}
+
 .parkingMainNavigation ul li{
 	list-style-type:none;
 	text-decoration:none;
-	float:left;
+	display: inline;
 }
+
 .parkingMainNavigation ul{
-padding:0;
-margin-left:18%;
-position:relative;
+	margin: 0 auto;
 }
+
+ul {
+	padding: 0px;
+}
+
 h1.headerTitleFont{
-	background-color:black;
+	background-color: black;
 	color:white;
+	padding-top: 10px;	
+	padding-bottom: 10px;	
 }
+
+.parkingHeader {
+	margin-top: -21px;	
+}
+
+.individualButtonInfoContainer {
+	margin: 0 auto;
+	text-align: center;
+	width: 300px;
+	height: 50px;
+	border-radius: 10px;
+	border: 1px solid #ffcc33;
+	background: -moz-linear-gradient(top, #fee76a, #dfbd58);
+	background: -webkit-gradient(linear, left top, left bottom, from(#fee76a), to(#dfbd58));
+	margin-bottom: 10px;
+}
+
+.individualButtonInfoContainerTraffic {
+	margin: 0 auto;
+	text-align: center;
+	width: 300px;
+	height: 55px;
+	border-radius: 10px;
+	border: 1px solid #ffcc33;
+	background: -moz-linear-gradient(top, #fee76a, #dfbd58);
+	background: -webkit-gradient(linear, left top, left bottom, from(#fee76a), to(#dfbd58));
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.individualButtonLinkTraffic {
+	width: 300px;
+	height: 55px;
+	display: block;
+	z-index: 10;
+	position: relative;
+}
+
+.trafficIntersectionName {
+	position: absolute;
+	margin-top: -45px;	
+	font-weight: bold;
+	width: 150px;
+}
+
+.individualButtonLink {
+	width: 300px;
+	height: 50px;
+	display: block;
+	z-index: 10;
+	position: relative;
+}
+
+.parkingGarageName {
+	margin-top: -37px;	
+	margin-left: -140px;	
+	font-weight: bold;
+	z-index: 9;
+}
+
+.red {
+	width: 40px;
+	height: 40px;
+	border: 2px solid #000000;
+	background: -moz-linear-gradient(top, #ff0c00, #d30a00);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff0c00), to(#d30a00));
+	z-index: 1;
+	margin-top: -46px;
+	margin-left: 250px;
+	border-radius: 100px;
+}
+
+.individualRed {
+	width: 40px;
+	height: 40px;
+	border: 2px solid #000000;
+	background: -moz-linear-gradient(top, #ff0c00, #d30a00);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff0c00), to(#d30a00));
+	z-index: 1;
+	border-radius: 100px;
+	margin: 0 auto;
+	margin-top: -180px;
+	position: relative;
+	z-index: 15;
+
+}
+
+.yellow {
+	width: 40px;
+	height: 40px;
+	border: 2px solid #000000;
+	background: -moz-linear-gradient(top, #ffde00, #dcc000);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffde00), to(#dcc000));
+	z-index: 1;
+	margin-top: -46px;
+	margin-left: 250px;
+	border-radius: 100px;
+}
+
+.individualYellow {
+	width: 40px;
+	height: 40px;
+	border: 2px solid #000000;
+	background: -moz-linear-gradient(top, #ffde00, #dcc000);
+	background: -webkit-gradient(linear, left top, left bottom, from(#ffde00), to(#dcc000));
+	z-index: 1;
+	border-radius: 100px;
+	margin: 0 auto;
+	margin-top: -180px;
+	position: relative;
+	z-index: 15;
+}
+
+.green {
+	width: 40px;
+	height: 40px;
+	border: 2px solid #000000;
+	background: -moz-linear-gradient(top, #00cc00, #00aa00);
+	background: -webkit-gradient(linear, left top, left bottom, from(#00cc00), to(#00aa00));
+	z-index: 1;
+	margin-top: -46px;
+	margin-left: 250px;
+	border-radius: 100px;
+}
+
+.individualGreen {
+	width: 40px;
+	height: 40px;
+	border: 2px solid #000000;
+	background: -moz-linear-gradient(top, #00cc00, #00aa00);
+	background: -webkit-gradient(linear, left top, left bottom, from(#00cc00), to(#00aa00));
+	z-index: 1;
+	border-radius: 100px;
+	margin: 0 auto;
+	margin-top: -180px;
+	position: relative;
+	z-index: 15;
+}
+
+.backButton {
+	position: relative;	
+	margin-top: 150px;
+}
+
+.status {
+	margin-left: 145px;	
+	margin-top: -35px;
+}
+
+.individualContainer {
+	margin: 0 auto;
+	text-align: center;
+}
+
