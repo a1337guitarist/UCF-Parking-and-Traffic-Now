@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1.headerTitleFont{
+	text-align:center;
+	font-family: 'Georgia, serif', cursive;
+}
+.parkingMainNavigation ul li{
+	list-style-type:none;
+	text-decoration:none;
+	float:left;
+}
+.parkingMainNavigation ul{
+padding:0;
+margin-left:18%;
+position:relative;
+}
+h1.headerTitleFont{
+	background-color:black;
+	color:white;
+}
